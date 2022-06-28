@@ -1,0 +1,26 @@
+.item__container {
+  //   border: 2px solid magenta;
+
+  width: 100%;
+  display: grid;
+  grid-template-rows: 15% 85%;
+  padding: 2em;
+  .item__title {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1em;
+  }
+
+  .item__picture {
+    // border: 2px solid red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .item__img {
+      height: 100%;
+    }
+  }
+}

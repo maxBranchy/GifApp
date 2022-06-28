@@ -1,0 +1,25 @@
+@use "./sass/reset";
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1b1b32;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__tittle {
+    margin: 2em;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+
+  &__items {
+    padding: 2em;
+    color: #fff;
+  }
+}
